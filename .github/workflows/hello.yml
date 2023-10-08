@@ -1,0 +1,10 @@
+name: Run Hello Action
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    name: Hello
+    steps:
+      - name: Hello
+        uses: LittleBear-6w6/practice_GitHubActions_HelloActions@v1.0.0

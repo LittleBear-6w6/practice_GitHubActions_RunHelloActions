@@ -1,0 +1,12 @@
+name: Run UpperCase Docker Action
+on: push
+
+jobs:
+  uppercase:
+    runs-on: ubuntu-latest
+    name: Uppercase
+    steps:
+      - name: Uppercae
+        uses: LittleBear-6w6/PracticeGithubActions_Container@v1.0.0
+        with:
+          text: hello,world!

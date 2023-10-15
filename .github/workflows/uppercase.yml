@@ -10,3 +10,5 @@ jobs:
         uses: LittleBear-6w6/PracticeGithubActions_Container@v1.0.0
         with:
           text: hello,world!
+      - name: Print converted text
+        run: echo "${{ steps.Uppercae.outputs.uppercase-text }}"
